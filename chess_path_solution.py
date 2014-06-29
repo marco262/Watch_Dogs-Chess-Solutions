@@ -96,24 +96,106 @@ BOARD_WIDTH = 8
 ##         [' ',' ',' ','p',' ',' ',' ',' '],
 ##         [' ','N',' ',' ',' ',' ','N',' ']]
 
-##board = [[' ','p',' ',' ',' ','p',' ',' '],
-##         ['p',' ','p',' ',' ','p',' ',' '],
-##         [' ',' ','N','p',' ','p',' ',' '],
-##         [' ',' ',' ',' ','p',' ',' ',' '],
-##         [' ',' ',' ',' ',' ',' ','p','p'],
-##         [' ',' ','B',' ','p','R',' ',' '],
-##         [' ',' ','p',' ',' ','p',' ',' '],
-##         [' ',' ',' ','p',' ',' ',' ',' ']]
+board = [[' ','p',' ',' ',' ','p',' ',' '],
+         ['p',' ','p',' ',' ','p',' ',' '],
+         [' ',' ','N','p',' ','p',' ',' '],
+         [' ',' ',' ',' ','p',' ',' ',' '],
+         [' ',' ',' ',' ',' ',' ','p','p'],
+         [' ',' ','B',' ','p','R',' ',' '],
+         [' ',' ','p',' ',' ','p',' ',' '],
+         [' ',' ',' ','p',' ',' ',' ',' ']]
 #############################################
 
-board = [[' ',' ',' ',' ',' ',' ',' ',' '],
-         [' ',' ',' ',' ',' ',' ',' ',' '],
-         [' ',' ',' ','p',' ',' ',' ',' '],
-         [' ',' ',' ',' ',' ','p',' ',' '],
-         [' ',' ',' ',' ',' ',' ',' ','p'],
-         [' ',' ',' ','p',' ',' ',' ',' '],
-         [' ',' ',' ',' ',' ','p',' ',' '],
-         [' ',' ',' ','Q',' ',' ',' ','p']]
+############### Chess Puzzles 1-10 ##########
+##board = [[' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ','p',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ','p',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ','p'],
+##         [' ',' ',' ','p',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ','p',' ',' '],
+##         [' ',' ',' ','Q',' ',' ',' ','p']]
+
+##board = [[' ',' ','p',' ',' ',' ',' ','p'],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         ['p',' ',' ',' ',' ','p',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ','p','Q',' ',' ',' ','p']]
+
+##board = [[' ',' ',' ','p',' ',' ',' ',' '],
+##         ['p',' ',' ',' ',' ',' ',' ','p'],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         ['p',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ','p',' ',' ','p',' ',' '],
+##         [' ',' ',' ',' ',' ','p',' ',' '],
+##         [' ',' ',' ','Q',' ',' ',' ',' ']]
+
+##board = [[' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' ']]
+
+##board = [[' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ','p',' ',' ',' ','p'],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         ['p',' ',' ',' ','p',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ','p',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ','p',' ',' ',' ',' '],
+##         [' ',' ',' ','Q','p',' ',' ','p']]
+
+##board = [[' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ','p',' ',' ',' ',' ','p',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ','p',' ',' ','p',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ','p',' ',' ',' ',' ',' ','p'],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ','p',' ','Q','p',' ',' ',' ']]
+
+##board = [[' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ','p',' ',' ',' ',' ','p',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ','p',' ',' ',' ',' ',' ','p'],
+##         [' ',' ',' ','p',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ','p',' ',' '],
+##         ['p',' ',' ','p',' ',' ',' ',' '],
+##         [' ',' ',' ','Q',' ','p',' ',' ']]
+
+##board = [[' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ','p',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ','p','p',' ','p'],
+##         [' ',' ',' ','p',' ',' ',' ','p'],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ','p',' ','p'],
+##         [' ',' ',' ','Q',' ',' ','p',' ']]
+
+##board = [[' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ','p',' ',' ',' '],
+##         [' ',' ',' ',' ','p','p',' ',' '],
+##         [' ',' ','p','p','p',' ',' ',' '],
+##         [' ',' ',' ',' ','p','p',' ',' '],
+##         [' ',' ','p',' ',' ',' ','p',' '],
+##         [' ',' ',' ','Q',' ',' ',' ',' ']]
+
+##board = [['p',' ',' ',' ',' ',' ',' ',' '],
+##         [' ',' ',' ',' ','p',' ',' ',' '],
+##         [' ',' ',' ',' ',' ','p',' ',' '],
+##         [' ',' ',' ',' ',' ',' ',' ',' '],
+##         [' ','p',' ',' ','p',' ',' ',' '],
+##         [' ',' ',' ','p',' ',' ',' ',' '],
+##         ['p',' ',' ',' ',' ','p',' ',' '],
+##         [' ','p',' ','Q',' ','p',' ',' ']]
 
 def GetGoodPieces(board):
     '''Returns a list of 2-tuple coordinates of all "good" pieces'''
@@ -291,7 +373,8 @@ def Coord2ChessPos(y,x):
     return chr(0x41+x)+str(BOARD_WIDTH-y)
 
 
-def FindPathOnBoard(board, good_pieces, output_str=""):
+def FindPathOnBoard(board, good_pieces, output_str="",
+                    stop_at_first_solution=False):
     '''
     @param list(list(str)) board: 2D array of current board state
     @param list(2-list(int)) good_pieces: The positions of the pieces
@@ -323,6 +406,8 @@ def FindPathOnBoard(board, good_pieces, output_str=""):
     if BoardCleared(board):
         solutions.append(output_str)
         return
+    if solutions and stop_at_first_solution:
+        return
     for piece_index,coords in enumerate(good_pieces):
         y_pos = coords[0]
         x_pos = coords[1]
@@ -330,6 +415,8 @@ def FindPathOnBoard(board, good_pieces, output_str=""):
         cap_pieces = FindCapturablePieces(board, x_pos, y_pos, piece)
         if len(cap_pieces) > 0:
             for cp_y,cp_x in cap_pieces:
+                if solutions and stop_at_first_solution:
+                    return
                 board_copy = deepcopy(board)
                 good_pieces_copy = good_pieces[:]
                 # Erase white piece
@@ -341,7 +428,8 @@ def FindPathOnBoard(board, good_pieces, output_str=""):
                     piece, Coord2ChessPos(y_pos, x_pos),
                     Coord2ChessPos(cp_y, cp_x)
                     )
-                FindPathOnBoard(board_copy, good_pieces_copy, output_str+next_succ)
+                FindPathOnBoard(board_copy, good_pieces_copy,
+                                output_str+next_succ, stop_at_first_solution)
 
                     
 def FindBestSolution(solutions):
@@ -380,15 +468,19 @@ def FindBestSolution(solutions):
     keys = sorted(solution_dict.keys())
     return solution_dict[keys[0]]
 
-
 def main():
+    global solutions
     t1 = time.time()
+    solutions = []
     good_pieces = GetGoodPieces(board)
-    FindPathOnBoard(board, good_pieces)
+    FindPathOnBoard(board, good_pieces,
+                    stop_at_first_solution=False)
     t2 = time.time()
     print "Time to solution:",t2-t1
-    print "\n".join(FindBestSolution(solutions))
+    if len(good_pieces) > 1 and len(solutions) > 1:
+        print "\n".join(FindBestSolution(solutions))
+    else:
+        print "\n".join(solutions)
 
 if __name__ == "__main__":
-    solutions = []
     main()
