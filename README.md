@@ -1,4 +1,8 @@
 Watch_Dogs-Chess-Solutions
 ==========================
 
-My scripts that I fuck around with
+This is my repository that I've made with the intention of sharing all my scripts that attempt to solve Chess puzzles Watch_Dogs.
+
+Scripts:
+chess_solution.py: Contains commented out code of my first attempt at a solution. Keeping for historical purposes.
+chess_path_solution.py: Built to solve non-Survival chess puzzles. Contains board layouts for all 10 puzzles at <insert location here>
